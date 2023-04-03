@@ -60,26 +60,21 @@ class P39CombinationSum {
     class Solution {
         public List<List<Integer>> combinationSum(int[] candidates, int target) {
             List<List<Integer>> res = new ArrayList<>();
-            if (candidates.length == 0) {
-                return res;
-            }
-            Arrays.sort(candidates);
-
-            backTracking(candidates, res, new ArrayList<Integer>(), target, 0);
+            dfs(candidates, target, res, new ArrayList<Integer>(), 0);
             return res;
         }
 
-        public void backTracking(int[] candidates, List<List<Integer>> res, ArrayList<Integer> tmp, int target, int begin) {
+        public void dfs(int[] candidates, int target, List<List<Integer>> res, ArrayList<Integer> tmp, int begin) {
             if (target == 0) {
                 res.add(new ArrayList<>(tmp));
             }
 
             for (int i = begin; i < candidates.length; i++) {
-                if (target - candidates[i] < 0) {
+                if (target < 0) {
                     break;
                 }
                 tmp.add(candidates[i]);
-                backTracking(candidates, res, tmp, target - candidates[i], i);
+                dfs(candidates, target - candidates[i], res, tmp, i);
                 tmp.remove(tmp.size() - 1);
             }
         }
