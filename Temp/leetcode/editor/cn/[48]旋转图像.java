@@ -39,7 +39,7 @@ class Solution {
         int length = matrix.length;
         for (int i = 0; i < (matrix.length + 1) / 2; i++) {
             for (int j = i; j < length - 1; j++) {
-                swap(matrix, i, j);
+                swap(matrix, j);
                 for (int[] ints : matrix) {
                     for (int anInt : ints) {
                         System.out.print(anInt + " ");
@@ -52,9 +52,10 @@ class Solution {
         }
     }
 
-    public void swap(int[][] matrix, int i, int j) {
+    public void swap(int[][] matrix, int j) {
         int flag = 0;
         int length = matrix.length;
+        int i = j;
         int t = matrix[i][j];
         while (flag != 4) {
             if (flag == 3) {

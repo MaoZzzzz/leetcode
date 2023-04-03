@@ -102,6 +102,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/Temp/leetcode/editor/cn/P48RotateImage .java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/doc/content/P48RotateImage .md" />
+              <option name="frontendQuestionId" value="leetcode.cn48" />
+              <option name="host" value="leetcode.cn" />
+              <option name="path" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/P48RotateImage .java" />
+              <option name="titleSlug" value="rotate-image" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/Temp/leetcode/editor/cn/[153]寻找旋转排序数组中的最小值.java">
           <value>
             <LeetcodeEditor>
@@ -149,10 +160,10 @@
         <entry key="$PROJECT_DIR$/Temp/leetcode/editor/cn/[48]旋转图像.java">
           <value>
             <LeetcodeEditor>
-              <option name="contentPath" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/doc/content/[48]旋转图像.md" />
+              <option name="contentPath" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/doc/content/P48RotateImage .md" />
               <option name="frontendQuestionId" value="leetcode.cn48" />
               <option name="host" value="leetcode.cn" />
-              <option name="path" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/[48]旋转图像.java" />
+              <option name="path" value="$PROJECT_DIR$/Temp/leetcode/editor/cn/P48RotateImage .java" />
               <option name="titleSlug" value="rotate-image" />
             </LeetcodeEditor>
           </value>
