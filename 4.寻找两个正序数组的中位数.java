@@ -35,7 +35,7 @@ class Solution {
         while (true) {
             if (index1 == length1) return nums2[index2 + (k / 2)];
             if (index2 == length1) return nums1[index1 + (k / 2)];
-            if (k == 1) return Ma
+            // if (k == 1) return Ma
 
             int newIndex1 = Math.min(index1 + (k / 2), length1);
             int newIndex2 = Math.min(index2 + (k / 2), length2);
